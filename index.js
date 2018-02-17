@@ -1,3 +1,4 @@
+var debug = require('debug')('broccoli-asset-rev');
 var path = require('path');
 
 var defaults = require('./lib/default-options');
