@@ -111,11 +111,12 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-broccoli-asset-rewrite@^1.1.0:
+"broccoli-asset-rewrite@github:kriswill/broccoli-asset-rewrite#fix-engine-assets":
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/broccoli-asset-rewrite/-/broccoli-asset-rewrite-1.1.0.tgz#77a5da56157aa318c59113245e8bafb4617f8830"
+  resolved "https://codeload.github.com/kriswill/broccoli-asset-rewrite/tar.gz/1ec0a84b346d4f857d6c1671f527d4a641da6cc7"
   dependencies:
     broccoli-filter "^1.2.3"
+    debug "^3.1.0"
 
 broccoli-filter@^1.2.2, broccoli-filter@^1.2.3:
   version "1.2.4"
